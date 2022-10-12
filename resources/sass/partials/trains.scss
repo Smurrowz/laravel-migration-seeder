@@ -1,0 +1,38 @@
+.trains{
+  background-color: dodgerblue;
+  height: 100vh;
+  color: white;
+  
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1600px;
+    margin: 0 auto;
+  }
+  .title{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 100px;
+  }
+  .card{
+    border: 1px solid rgb(226, 219, 219);
+    border-radius: 10px ;
+    background-color: rgb(50, 49, 49);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    h2{
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    
+    .card-text{
+      font-weight: 600;
+      color: lightblue;
+      line-height: 24px;
+    }
+    
+  }
+}
